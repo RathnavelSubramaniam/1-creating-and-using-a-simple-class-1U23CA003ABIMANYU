@@ -2,10 +2,10 @@ class Persona {
     String firstName;
     String lastName;
     int age;
-Persona(String firstName, String lastName, int age) {
-    this.firstName = firstName;
-    this.lastName =  lastName;
-    this.age = age;
+Persona(String fName, String lName, int a) {
+    firstName = fName;
+    lastName =  lName;
+    age = a;
 }
 String getFullName(){
     return firstName + "" + lastName;
