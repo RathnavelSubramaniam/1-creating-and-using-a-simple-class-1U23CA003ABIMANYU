@@ -2,7 +2,7 @@ class Persona {
     String firstName;
     String lastName;
     int age;
-Persona (String firstName, String lastName, int age) {
+Persona(String firstName, String lastName, int age) {
     this.firstName = firstName;
     this.lastName =  lastName;
     this.age = age;
@@ -19,11 +19,11 @@ class Person{
     String  kk = a1.getFullName();
     String lk = a2.getFullName();
 
-    System.out.println(kk);
-    System.out.println(lk);
+    System.out.println("Person 1: "+kk);
+    System.out.println("Person 2: "+lk);
 
     double average = ((a1.age + a2.age)/2.0);
-    System.out.println (average);
+    System.out.println ("Average: " +average);
 }
 }
 
