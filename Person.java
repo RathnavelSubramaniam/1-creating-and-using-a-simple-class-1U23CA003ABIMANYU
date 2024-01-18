@@ -8,7 +8,7 @@ Persona(String fName, String lName, int a) {
     age = a;
 }
 String getFullName(){
-    return firstName + "" + lastName;
+    return firstName + " " + lastName;
 }
 }
 class Person{
