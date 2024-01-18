@@ -13,8 +13,8 @@ String getFullName(){
 }
 class Person{
     public static void main (String args []) {
-    Persona a1 = new Persona("Michael", "Scott", 46);
-    Persona a2 = new Persona("Jim", "Halpert", 28);
+    Persona a1 = new Persona("John", "Doe", 30);
+    Persona a2 = new Persona("Alice", "Smith", 20);
 
     String  kk = a1.getFullName();
     String lk = a2.getFullName();
